@@ -1,0 +1,72 @@
+body{
+    background-color: #131518;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mtavaridivi{
+    display: flex;
+    justify-content: center;
+}
+.mtavarisshvili{
+    width: 412px;
+    height: 416px;
+    background-color: #232A34;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+.star{
+    width: 40px;
+    padding-left: 30px;
+    padding-top: 30px;
+    
+}
+h1{
+    color: white;
+    padding-left: 30px;
+}
+p{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: wheat;
+}
+.cifrebisdeda{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.cifri{
+    width: 50px;
+    height: 50px;
+    background-color: #131518;
+    /* padding: 5px; */
+    margin: 10px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+}
+.cifri:hover{
+    background-color:brown;
+    transition: 0.3s;
+}
+.submit{
+    padding: 30px;
+    width: 300px;
+}
+button{
+    width: 350px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 40px;
+    background-color: chocolate;
+    color: white;
+    font-size: 20px;
+}
+button:hover{
+    background-color: antiquewhite;
+    color: black;
+}
